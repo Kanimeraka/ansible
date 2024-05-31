@@ -1,0 +1,8 @@
+---
+- name: master playbook
+  hosts: localhost
+  become: true
+  roles: 
+    - docker-role
+    - git-role
+    - httpd-role

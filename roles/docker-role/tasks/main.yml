@@ -1,0 +1,5 @@
+---
+- name: install docker using role
+  yum: 
+   name: httpd
+   state: installed
